@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+
+<head>
+    <title>登陆</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/denglucss.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/denglujs.js"></script>
+    <script type="text/javascript" src="js/denglujquery.js"></script>
+</head>
+
+<body style="height: 100%;">
+    <div id="fatherbox">
+        <div id="nav">
+            <div id="cmicon">
+                <a href=""><img src="css/img/cm副本.png" id="cm" style="height: 110%;width: 110%;"></a>
+            </div>
+            <div id="person">
+                <a href="" style="font-size: 20px;left:240px;" class="choose ceng1 login">login</a>
+                <a href="" style="font-size: 20px;left:240px;top: 19px;" class="choose_go ceng2 login">login</a>
+                <a href="" style="font-size: 20px;left:310px;" class="choose ceng1 menu" >menu</a>
+                <a href="" style="font-size: 20px;left:310px;top:19px;" class="choose_go ceng2 menu" >menu</a>
+                <button style="position: absolute;right: 45px;top: 20px;" id="menu_open"><img src="css/img/菜单图标.png" style="height: 30px;width: 30px;"></button>
+            </div>
+        </div>
+        <div id="signuppic">
+            <a href="#" style="position: "><img src="css/img/Login.png"></a>
+        </div>
+        <div id="signup">
+            <input type="text" placeholder="User name" id="username" onblur="checkUsername()">
+            <div class="alertbox">
+                <p style="color: red;font-size: 17px;line-height:40px; " id="alerttxt1"></p>
+            </div>
+            <input type="password" placeholder="Password" id="userkey" onblur="checkUserKey()">
+            <div class="alertbox">
+                <p style="color: red;font-size: 17px;line-height:40px; " id="alerttxt2"></p>
+            </div>
+        </div>
+        <div id="signupbutton">
+            <a href=""><img src="css/img/login1.png" style="height: 70%;width: 70%;"></a>
+        </div>
+        
+
+        <div id="sidebar">
+            <button id="closemenu">
+            </button>
+            <ul style="margin-left:30px;margin-top:30px;">
+                <a href="">
+                    <li>About</li>
+                </a>
+                <a href="">
+                    <li>Works</li>
+                </a>
+                <a href="">
+                    <li>News</li>
+                </a>
+                <a href="">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+   
+    </div>
+</body>
+
+</html>

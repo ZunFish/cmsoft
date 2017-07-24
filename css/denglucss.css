@@ -1,0 +1,158 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+	list-style: none;
+	overflow:hidden;
+	font-family: '微软雅黑';
+}
+::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: white; 
+    opacity:1;
+    text-align: center; 
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: white;
+    opacity:1;
+    text-align: center;
+}
+input:-ms-input-placeholder{
+    color: white;
+    opacity:1;
+    text-align: center;
+}
+
+input::-webkit-input-placeholder{
+    color: white;
+    opacity:1;
+    text-align: center;
+}
+.choose{
+	color:#2554A0;
+}
+.choose_go{
+	color: white;
+}
+.choose_go:hover{
+	transform:scale(1.2);
+    opacity: 0;
+    transition: 0.4s ease;
+}
+#person a{
+	position: absolute;
+	top: 19px;
+}
+#fatherbox{
+	height: 100%;
+	width: 100%;
+	background-image: url(img/11副本.jpg);
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: 100% 115%;
+}
+#nav{
+	height: 10%;
+	width: 100%;
+}
+#cmicon{
+	height: 60px;
+	width: 60px;
+	position: relative;
+	float: left;
+    top:6px;
+    left:30px;
+}
+#cm:hover{
+    opacity: 0.7;
+    -moz-transform:scale(0.8);  
+    -webkit-transform:scale(0.8);  
+    -o-transform:scale(0.8); 
+    transition-timing-function: linear;
+    transition: 0.4s;
+}
+#person{
+	height: 100%;
+	width: 30%;
+	float: right;
+	position:relative;
+	z-index: 99;
+}
+#menu_open{
+	background-color: transparent;
+	border:none;
+	outline:none;
+	cursor: pointer;
+}
+/*******************************************/
+#signuppic{
+	width: 16%;
+    margin:auto;
+    padding:30px;
+}
+#signup{
+	height:240px;
+	width: 450px;
+	margin:auto;
+}
+#signup input{
+	height:55px;
+	width: 450px;
+	outline:none;
+	border:none;
+	background-color: #8F8F8F;
+	color: white;
+	font-size: 35px;
+	margin:auto;
+	padding:5px;
+}
+#signupbutton{
+	height:100px;
+	width:100px;
+	margin:auto;
+	margin-top:25px;
+	text-align: center;
+}
+.alertbox{
+	height: 40px;
+	width: 450px;
+	padding-left: 15px;
+}
+/******************************/
+#sidebar{
+	background-color: white;
+	height: 100%;
+	width:0px;
+	position: fixed;
+	right: 0px;
+	top:0px;
+	z-index: 100;
+
+}
+#sidebar ul a{
+	display: block;
+    color:black;
+    margin-bottom:35px;
+    font-size: 22px;
+}
+#sidebar ul a:hover{
+	color:#2554A0;
+}
+#closemenu{
+	height: 30px;
+	width: 30px;
+	background-image: url(img/close.png);
+	background-size: 30px 30px;
+	outline:none;
+	border:none;
+	background-color: transparent;
+	cursor: pointer;
+	right: 5px;
+	top: 5px;
+	position: absolute;
+}
+#menugo{
+	position: absolute;
+    z-index:99;
+    top: 10px;
+    right:45px;
+}
